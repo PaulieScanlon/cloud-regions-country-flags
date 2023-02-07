@@ -1,6 +1,6 @@
 # cloud-regions-country-flags
 
-A library to convert cloud provider regions strings to locations and emoji flag.
+A library to convert cloud provider regions to locations and emoji flags.
 
 ## Intall
 
