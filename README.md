@@ -31,5 +31,5 @@ getInfo('us-west2-a', 'GCP');
 
 ## Help
 
-- [AWS AWS Regions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html)
+- [AWS Regions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html)
 - [GCP Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
