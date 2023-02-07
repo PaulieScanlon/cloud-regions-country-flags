@@ -4,7 +4,7 @@ exports.getInfo = function (region, provider) {
     flag: '',
   };
 
-  if (!provider) {
+  if (provider === 'AWS') {
     // AWS
     switch (region) {
       case 'us-east-2':
@@ -157,7 +157,7 @@ exports.getInfo = function (region, provider) {
         obj.flag = '⚠️';
         break;
     }
-  } else {
+  } else if (provider === 'GCP') {
     // GCP
     switch (region) {
       case 'asia-east1-a':
@@ -697,6 +697,13 @@ exports.getInfo = function (region, provider) {
 
       default:
         obj.location = 'GCP';
+        obj.flag = '⚠️';
+        break;
+    }
+  } else {
+    switch (region) {
+      default:
+        obj.location = 'Unknown provider';
         obj.flag = '⚠️';
         break;
     }

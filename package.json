@@ -1,6 +1,6 @@
 {
   "name": "cloud-regions-country-flags",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A library to convert cloud provider regions to country flag emojis",
   "main": "index.js",
   "scripts": {

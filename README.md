@@ -13,23 +13,21 @@ npm install cloud-regions-country-flags --save
 ```javascript
 import { getInfo } from 'cloud-regions-country-flags';
 
-// Defaults to Amazon Web Services (ASWS)
-getInfo('eu-north-1');
+getInfo('eu-north-1', 'AWS');
 
 // => { location: 'Europe (Stockholm)', flag: '🇸🇪' }
-```
 
-## Options
-
-Pass in Cloud Provider. Currently only accepts 'AWS' or 'GCP'
-
-```javascript
-import { getInfo } from 'cloud-regions-country-flags';
-
-// Set Cloud Provider to Google Cloud Platofmr (GCP)
 getInfo('us-west2-a', 'GCP');
+
 // => { location: 'Los Angeles, California, North Americ', flag: '🇺🇸' }
 ```
+
+## Parameters
+
+| Name     | Type              | Required | Description            |
+| -------- | ----------------- | -------- | ---------------------- |
+| region   | string            | true     | name of cloud region   |
+| provider | string AWS or GCP | true     | name of cloud provider |
 
 ## Help
 
