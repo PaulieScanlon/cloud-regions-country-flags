@@ -18,7 +18,12 @@ exports.getInfo = function (region, provider) {
         break;
 
       case 'us-west-1':
-        obj.location = 'US West (N. California)';
+        obj.location = 'US West (Oregon)';
+        obj.flag = '🇺🇸';
+        break;
+
+      case 'us-west-2':
+        obj.location = 'US West (Oregon)';
         obj.flag = '🇺🇸';
         break;
 
