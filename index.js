@@ -160,6 +160,11 @@ exports.getInfo = function (region, provider) {
   } else if (provider === 'GCP') {
     // GCP
     switch (region) {
+      case 'asia-east1':
+        obj.location = 'Changhua County, Taiwan, APAC';
+        obj.flag = '🇹🇼';
+        break;
+
       case 'asia-east1-a':
         obj.location = 'Changhua County, Taiwan, APAC';
         obj.flag = '🇹🇼';
@@ -173,6 +178,11 @@ exports.getInfo = function (region, provider) {
       case 'asia-east1-c':
         obj.location = 'Changhua County, Taiwan, APAC';
         obj.flag = '🇹🇼';
+        break;
+
+      case 'asia-east2':
+        obj.location = 'Hong Kong, APAC';
+        obj.flag = '🇨🇳';
         break;
 
       case 'asia-east2-a':
@@ -190,6 +200,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇨🇳';
         break;
 
+      case 'asia-northeast1':
+        obj.location = 'Tokyo, Japan, APAC';
+        obj.flag = '🇯🇵';
+        break;
+
       case 'asia-northeast1-a':
         obj.location = 'Tokyo, Japan, APAC';
         obj.flag = '🇯🇵';
@@ -202,6 +217,11 @@ exports.getInfo = function (region, provider) {
 
       case 'asia-northeast1-c':
         obj.location = 'Tokyo, Japan, APAC';
+        obj.flag = '🇯🇵';
+        break;
+
+      case 'asia-northeast2':
+        obj.location = 'Osaka, Japan, APAC';
         obj.flag = '🇯🇵';
         break;
 
@@ -220,6 +240,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇯🇵';
         break;
 
+      case 'asia-northeast3':
+        obj.location = 'Seoul, South Korea, APAC';
+        obj.flag = '🇰🇷';
+        break;
+
       case 'asia-northeast3-a':
         obj.location = 'Seoul, South Korea, APAC';
         obj.flag = '🇰🇷';
@@ -235,6 +260,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇰🇷';
         break;
 
+      case 'asia-south1':
+        obj.location = 'Mumbai, India APAC';
+        obj.flag = '🇮🇳';
+        break;
+
       case 'asia-south1-a':
         obj.location = 'Mumbai, India APAC';
         obj.flag = '🇮🇳';
@@ -247,6 +277,11 @@ exports.getInfo = function (region, provider) {
 
       case 'asia-south1-c':
         obj.location = 'Mumbai, India APAC';
+        obj.flag = '🇮🇳';
+        break;
+
+      case 'asia-south2':
+        obj.location = 'Delhi, India APAC';
         obj.flag = '🇮🇳';
         break;
 
@@ -265,6 +300,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇮🇳';
         break;
 
+      case 'asia-southeast1':
+        obj.location = 'Jurong West, Singapore, APAC';
+        obj.flag = '🇸🇬';
+        break;
+
       case 'asia-southeast1-a':
         obj.location = 'Jurong West, Singapore, APAC';
         obj.flag = '🇸🇬';
@@ -278,6 +318,11 @@ exports.getInfo = function (region, provider) {
       case 'asia-southeast1-c':
         obj.location = 'southeast1-c	Jurong West, Singapore, APAC';
         obj.flag = '🇸🇬';
+        break;
+
+      case 'asia-southeast2':
+        obj.location = 'Jakarta, Indonesia, APAC';
+        obj.flag = '🇮🇩';
         break;
 
       case 'asia-southeast2-a':
@@ -295,6 +340,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇮🇩';
         break;
 
+      case 'australia-southeast1':
+        obj.location = 'Sydney, Australia, APAC';
+        obj.flag = '🇦🇺';
+        break;
+
       case 'australia-southeast1-a':
         obj.location = 'Sydney, Australia, APAC';
         obj.flag = '🇦🇺';
@@ -307,6 +357,11 @@ exports.getInfo = function (region, provider) {
 
       case 'australia-southeast1-c':
         obj.location = 'Sydney, Australia, APAC';
+        obj.flag = '🇦🇺';
+        break;
+
+      case 'australia-southeast2':
+        obj.location = 'Melbourne, Australia, APAC';
         obj.flag = '🇦🇺';
         break;
 
@@ -325,6 +380,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇦🇺';
         break;
 
+      case 'europe-central2':
+        obj.location = 'Warsaw, Poland, Europe';
+        obj.flag = '🇵🇱';
+        break;
+
       case 'europe-central2-a':
         obj.location = 'Warsaw, Poland, Europe';
         obj.flag = '🇵🇱';
@@ -340,6 +400,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇵🇱';
         break;
 
+      case 'europe-north1':
+        obj.location = 'Hamina, Finland, Europe';
+        obj.flag = '🇫🇮';
+        break;
+
       case 'europe-north1-a':
         obj.location = 'Hamina, Finland, Europe';
         obj.flag = '🇫🇮';
@@ -353,6 +418,11 @@ exports.getInfo = function (region, provider) {
       case 'europe-north1-c':
         obj.location = 'Hamina, Finland, Europe';
         obj.flag = '🇫🇮';
+        break;
+
+      case 'europe-southwest1':
+        obj.location = 'Madrid, Spain, Europe';
+        obj.flag = '🇪🇸';
         break;
 
       case 'europe-southwest1-a':
@@ -385,6 +455,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇧🇪';
         break;
 
+      case 'europe-west2':
+        obj.location = 'London, England, Europe';
+        obj.flag = '🇬🇧';
+        break;
+
       case 'europe-west2-a':
         obj.location = 'London, England, Europe';
         obj.flag = '🇬🇧';
@@ -398,6 +473,11 @@ exports.getInfo = function (region, provider) {
       case 'europe-west2-c':
         obj.location = 'London, England, Europe';
         obj.flag = '🇬🇧';
+        break;
+
+      case 'europe-west3':
+        obj.location = 'Frankfurt, Germany Europe';
+        obj.flag = '🇩🇪';
         break;
 
       case 'europe-west3-a':
@@ -415,6 +495,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇩🇪';
         break;
 
+      case 'europe-west4':
+        obj.location = 'Eemshaven, Netherlands, Europe';
+        obj.flag = '🇳🇱';
+        break;
+
       case 'europe-west4-a':
         obj.location = 'Eemshaven, Netherlands, Europe';
         obj.flag = '🇳🇱';
@@ -428,6 +513,11 @@ exports.getInfo = function (region, provider) {
       case 'europe-west4-c':
         obj.location = 'Eemshaven, Netherlands, Europe';
         obj.flag = '🇳🇱';
+        break;
+
+      case 'europe-west6':
+        obj.location = 'Zurich, Switzerland, Europe';
+        obj.flag = '🇨🇭';
         break;
 
       case 'europe-west6-a':
@@ -445,6 +535,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇨🇭';
         break;
 
+      case 'europe-west8':
+        obj.location = 'Milan, Italy, Europe';
+        obj.flag = '🇮🇹';
+        break;
+
       case 'europe-west8-a':
         obj.location = 'Milan, Italy, Europe';
         obj.flag = '🇮🇹';
@@ -458,6 +553,11 @@ exports.getInfo = function (region, provider) {
       case 'europe-west8-c':
         obj.location = 'Milan, Italy, Europe';
         obj.flag = '🇮🇹';
+        break;
+
+      case 'europe-west9':
+        obj.location = 'Paris, France, Europe';
+        obj.flag = '🇫🇷';
         break;
 
       case 'europe-west9-a':
@@ -475,6 +575,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇫🇷';
         break;
 
+      case 'me-west1':
+        obj.location = 'Tel Aviv, Israel, Middle East';
+        obj.flag = '🇮🇱';
+        break;
+
       case 'me-west1-a':
         obj.location = 'Tel Aviv, Israel, Middle East';
         obj.flag = '🇮🇱';
@@ -490,6 +595,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇮🇱';
         break;
 
+      case 'northamerica-northeast1':
+        obj.location = 'Montréal, Québec, North America';
+        obj.flag = '🇨🇦';
+        break;
+
       case 'northamerica-northeast1-a':
         obj.location = 'Montréal, Québec, North America';
         obj.flag = '🇨🇦';
@@ -502,6 +612,11 @@ exports.getInfo = function (region, provider) {
 
       case 'northamerica-northeast1-c':
         obj.location = 'Montréal, Québec, North America';
+        obj.flag = '🇨🇦';
+        break;
+
+      case 'northamerica-northeast2':
+        obj.location = 'Toronto, Ontario, North America';
         obj.flag = '🇨🇦';
         break;
 
@@ -525,6 +640,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇨🇦';
         break;
 
+      case 'southamerica-east1':
+        obj.location = 'Osasco, São Paulo, Brazil, South America';
+        obj.flag = '🇧🇷';
+        break;
+
       case 'southamerica-east1-a':
         obj.location = 'Osasco, São Paulo, Brazil, South America';
         obj.flag = '🇧🇷';
@@ -540,6 +660,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇧🇷';
         break;
 
+      case 'southamerica-west1':
+        obj.location = 'Santiago, Chile, South America';
+        obj.flag = '🇨🇱';
+        break;
+
       case 'southamerica-west1-a':
         obj.location = 'Santiago, Chile, South America';
         obj.flag = '🇨🇱';
@@ -553,6 +678,11 @@ exports.getInfo = function (region, provider) {
       case 'southamerica-west1-c':
         obj.location = 'Santiago, Chile, South America';
         obj.flag = '🇨🇱';
+        break;
+
+      case 'us-central1':
+        obj.location = 'Council Bluffs, Iowa, North America';
+        obj.flag = '🇺🇸';
         break;
 
       case 'us-central1-a':
@@ -590,6 +720,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇺🇸';
         break;
 
+      case 'us-east4':
+        obj.location = 'Ashburn, Virginia, North America';
+        obj.flag = '🇺🇸';
+        break;
+
       case 'us-east4-a':
         obj.location = 'Ashburn, Virginia, North America';
         obj.flag = '🇺🇸';
@@ -602,6 +737,11 @@ exports.getInfo = function (region, provider) {
 
       case 'us-east4-c':
         obj.location = 'Ashburn, Virginia, North America';
+        obj.flag = '🇺🇸';
+        break;
+
+      case 'us-east5':
+        obj.location = 'Columbus, Ohio, North America';
         obj.flag = '🇺🇸';
         break;
 
@@ -620,6 +760,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇺🇸';
         break;
 
+      case 'us-south1':
+        obj.location = 'Dallas, Texas, North America';
+        obj.flag = '🇺🇸';
+        break;
+
       case 'us-south1-a':
         obj.location = 'Dallas, Texas, North America';
         obj.flag = '🇺🇸';
@@ -632,6 +777,11 @@ exports.getInfo = function (region, provider) {
 
       case 'us-south1-c':
         obj.location = 'Dallas, Texas, North America';
+        obj.flag = '🇺🇸';
+        break;
+
+      case 'us-west1':
+        obj.location = 'The Dalles, Oregon, North America';
         obj.flag = '🇺🇸';
         break;
 
@@ -650,6 +800,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇺🇸';
         break;
 
+      case 'us-west2':
+        obj.location = 'Los Angeles, California, North Americ';
+        obj.flag = '🇺🇸';
+        break;
+
       case 'us-west2-a':
         obj.location = 'Los Angeles, California, North Americ';
         obj.flag = '🇺🇸';
@@ -665,6 +820,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇺🇸';
         break;
 
+      case 'us-west3':
+        obj.location = 'Salt Lake City, Utah, North America';
+        obj.flag = '🇺🇸';
+        break;
+
       case 'us-west3-a':
         obj.location = 'Salt Lake City, Utah, North America';
         obj.flag = '🇺🇸';
@@ -677,6 +837,11 @@ exports.getInfo = function (region, provider) {
 
       case 'us-west3-c':
         obj.location = 'Salt Lake City, Utah, North America';
+        obj.flag = '🇺🇸';
+        break;
+
+      case 'us-west4':
+        obj.location = 'Las Vegas, Nevada, North America';
         obj.flag = '🇺🇸';
         break;
 
