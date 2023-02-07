@@ -321,7 +321,7 @@ exports.getInfo = function (region, provider) {
         break;
 
       case 'asia-southeast1-c':
-        obj.location = 'southeast1-c	Jurong West, Singapore, APAC';
+        obj.location = 'Jurong West, Singapore, APAC';
         obj.flag = '🇸🇬';
         break;
 
