@@ -1,0 +1,20 @@
+{
+  "name": "cloud-regions-country-flags",
+  "version": "0.0.1",
+  "description": "A library to convert cloud provider regions to country flag emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/cloud-regions-country-flags.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/cloud-regions-country-flags/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/cloud-regions-country-flags#readme"
+}
