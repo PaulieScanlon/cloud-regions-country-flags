@@ -5,7 +5,7 @@ exports.getInfo = function (region, { provider = 'AWS' }) {
     flag: '',
   };
 
-  if (provider !== 'AWS') {
+  if (!provider || provider !== 'AWS') {
     switch (region) {
       case 'eu-west':
         obj.country = 'Ireland';
