@@ -711,7 +711,7 @@ exports.getInfo = function (region, provider) {
         break;
 
       case 'us-east1-b':
-        obj.location = 'Moncks Corner, South Carolina, North Americ';
+        obj.location = 'Moncks Corner, South Carolina, North America';
         obj.flag = '🇺🇸';
         break;
 
@@ -806,12 +806,12 @@ exports.getInfo = function (region, provider) {
         break;
 
       case 'us-west2':
-        obj.location = 'Los Angeles, California, North Americ';
+        obj.location = 'Los Angeles, California, North America';
         obj.flag = '🇺🇸';
         break;
 
       case 'us-west2-a':
-        obj.location = 'Los Angeles, California, North Americ';
+        obj.location = 'Los Angeles, California, North America';
         obj.flag = '🇺🇸';
         break;
 

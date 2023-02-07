@@ -19,7 +19,7 @@ getInfo('eu-north-1', 'AWS');
 
 getInfo('us-west2-a', 'GCP');
 
-// => { location: 'Los Angeles, California, North Americ', flag: '🇺🇸' }
+// => { location: 'Los Angeles, California, North America', flag: '🇺🇸' }
 ```
 
 ## Parameters
