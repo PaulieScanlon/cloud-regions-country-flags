@@ -190,6 +190,11 @@ exports.getInfo = function (region, provider) {
         obj.flag = '🇨🇳';
         break;
 
+      case 'asia-east2':
+        obj.location = 'Hong Kong, APAC';
+        obj.flag = '🇨🇳';
+        break;
+
       case 'asia-east2-a':
         obj.location = 'Hong Kong, APAC';
         obj.flag = '🇨🇳';
@@ -443,6 +448,16 @@ exports.getInfo = function (region, provider) {
       case 'europe-southwest1-c':
         obj.location = 'Madrid, Spain, Europe';
         obj.flag = '🇪🇸';
+        break;
+
+      case 'europe-west1':
+        obj.location = 'St. Ghislain, Belgium, Europe';
+        obj.flag = '🇧🇪';
+        break;
+
+      case 'europe-west1-a':
+        obj.location = 'St. Ghislain, Belgium, Europe';
+        obj.flag = '🇧🇪';
         break;
 
       case 'europe-west1-b':
