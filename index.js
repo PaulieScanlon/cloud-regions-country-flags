@@ -879,5 +879,8 @@ exports.getInfo = function (region, provider) {
     }
   }
 
-  return obj;
+  return {
+    ...obj,
+    raw: region,
+  };
 };
