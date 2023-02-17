@@ -1443,8 +1443,8 @@ exports.getInfo = function (region, provider) {
         obj.location = 'Dublin, Ireland';
         obj.flag = '🇮🇪';
         obj.country = 'Ireland';
-        obj.latitude = 53.35105167936143;
-        obj.longitude = -6.251220485569604;
+        obj.latitude = 53.35023193965263;
+        obj.longitude = -6.242980739383072;
         obj.provider_region = 'AWS eu-west-1';
         break;
 
