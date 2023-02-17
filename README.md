@@ -40,12 +40,17 @@ getInfo('us-west2-a', 'GCP');
 
 ## Parameters
 
-| Name     | Type              | Required | Description            |
-| -------- | ----------------- | -------- | ---------------------- |
-| region   | string            | true     | name of cloud region   |
-| provider | string AWS or GCP | true     | name of cloud provider |
+| Name       | Type               | Required | Description      |
+| ---------- | ------------------ | -------- | ---------------- |
+| `region`   | string             | `true`   | code of region   |
+| `provider` | AWS / GCP / Vercel | `true`   | name of provider |
 
-## Help
+## Region Information
 
 - [AWS Regions](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html)
 - [GCP Regions and zones](https://cloud.google.com/compute/docs/regions-zones)
+- [Vercel Region List](https://vercel.com/docs/concepts/edge-network/regions#routing)
+
+### Bugs
+
+There has been a lot of copy and pasting of values from various sources to create this utility. If you spot anything that is incorrect please open an [issue](https://github.com/PaulieScanlon/cloud-regions-country-flags/issues) or [PR](https://github.com/PaulieScanlon/cloud-regions-country-flags/pulls). Thanks in advance!
