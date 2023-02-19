@@ -1,7 +1,7 @@
 {
   "name": "cloud-regions-country-flags",
   "version": "0.0.13",
-  "description": "A library to convert cloud provider regions to country flag emojis",
+  "description": "A library to convert cloud provider regions and ISO codes to country flag emojis and geographical information",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
