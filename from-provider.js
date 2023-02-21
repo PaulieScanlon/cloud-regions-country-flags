@@ -1400,7 +1400,7 @@ exports.fromProvider = function (region, provider) {
         obj.country = 'Sweden';
         obj.latitude = 59.327242540704844;
         obj.longitude = 18.11112249873855;
-        bj.provider_region = 'AWS eu-north-1';
+        obj.provider_region = 'AWS eu-north-1';
         break;
 
       case 'bom1':
