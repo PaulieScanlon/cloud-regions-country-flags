@@ -1398,8 +1398,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Stockholm, Sweden';
         obj.flag = '🇸🇪';
         obj.country = 'Sweden';
-        obj.latitude = 59.327242540704844;
-        obj.longitude = 18.11112249873855;
+        obj.latitude = 59.69793405312221;
+        obj.longitude = 18.20620045137292;
         obj.provider_region = 'AWS eu-north-1';
         break;
 
@@ -1407,8 +1407,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Mumbai, India';
         obj.flag = '🇮🇳';
         obj.country = 'India';
-        obj.latitude = 19.089335747980407;
-        obj.longitude = 72.87499665008126;
+        obj.latitude = 19.09548432841732;
+        obj.longitude = 72.86969881880101;
         obj.provider_region = 'AWS ap-south-1';
         break;
 
@@ -1416,8 +1416,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Paris, France';
         obj.flag = '🇫🇷';
         obj.country = 'France';
-        obj.latitude = 48.85741471753412;
-        obj.longitude = 2.3518349371822955;
+        obj.latitude = 49.009809010793596;
+        obj.longitude = 2.548250211580158;
         obj.provider_region = 'AWS eu-west-3';
         break;
 
@@ -1425,8 +1425,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Cleveland, USA';
         obj.flag = '🇺🇸';
         obj.country = 'United States of America';
-        obj.latitude = 41.496163440719926;
-        obj.longitude = -81.70863660127067;
+        obj.latitude = 41.406023797586265;
+        obj.longitude = -81.85351285044766;
         obj.provider_region = 'AWS us-east-2';
         break;
 
@@ -1434,8 +1434,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Cape Town, South Africa';
         obj.flag = '🇿🇦';
         obj.country = 'South Africa';
-        obj.latitude = -33.921106544286005;
-        obj.longitude = 18.51035508186518;
+        obj.latitude = -33.97131172127812;
+        obj.longitude = 18.602557166800676;
         obj.provider_region = 'AWS af-south-1';
         break;
 
@@ -1443,8 +1443,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Dublin, Ireland';
         obj.flag = '🇮🇪';
         obj.country = 'Ireland';
-        obj.latitude = 53.35023193965263;
-        obj.longitude = -6.242980739383072;
+        obj.latitude = 53.42653113218513;
+        obj.longitude = -6.249555759349427;
         obj.provider_region = 'AWS eu-west-1';
         break;
 
@@ -1452,8 +1452,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Frankfurt, Germany';
         obj.flag = '🇩🇪';
         obj.country = 'Germany';
-        obj.latitude = 50.11118831656038;
-        obj.longitude = 8.666751016361793;
+        obj.latitude = 50.038983433124926;
+        obj.longitude = 8.568755396715563;
         obj.provider_region = 'AWS eu-central-1';
         break;
 
@@ -1461,8 +1461,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'São Paulo, Brazil';
         obj.flag = '🇧🇷';
         obj.country = 'Brazil';
-        obj.latitude = -23.566406063241345;
-        obj.longitude = -46.625549380125584;
+        obj.latitude = -23.4303564714532;
+        obj.longitude = -46.472442201356245;
         obj.provider_region = 'AWS sa-east-1';
         break;
 
@@ -1470,8 +1470,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Hong Kong';
         obj.flag = '🇭🇰';
         obj.country = 'China';
-        obj.latitude = 22.32985973692592;
-        obj.longitude = 114.19636455155445;
+        obj.latitude = 22.308314982981454;
+        obj.longitude = 113.91900651054856;
         obj.provider_region = 'AWS ap-east-1';
         break;
 
@@ -1479,8 +1479,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Tokyo, Japan';
         obj.flag = '🇯🇵';
         obj.country = 'Japan';
-        obj.latitude = 35.97007155099243;
-        obj.longitude = 139.86657538201666;
+        obj.latitude = 35.549637541917555;
+        obj.longitude = 139.78035356941373;
         obj.provider_region = 'AWS ap-northeast-1';
         break;
 
@@ -1488,8 +1488,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Washington, D.C., USA';
         obj.flag = '🇺🇸';
         obj.country = 'United States of America';
-        obj.latitude = 38.90711384699596;
-        obj.longitude = -77.02350239105644;
+        obj.latitude = 38.95329973388636;
+        obj.longitude = -77.45615256400193;
         obj.provider_region = 'AWS us-east-1';
         break;
 
@@ -1497,8 +1497,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Seoul, South Korea';
         obj.flag = '🇰🇷';
         obj.country = 'South Korea';
-        obj.latitude = 0;
-        obj.longitude = 0;
+        obj.latitude = 37.46030995293819;
+        obj.longitude = 126.4415754501759;
         obj.provider_region = 'AWS ap-northeast-2';
         break;
 
@@ -1506,8 +1506,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Osaka, Japan';
         obj.flag = '🇯🇵';
         obj.country = 'Japan';
-        obj.latitude = 37.5559046093387;
-        obj.longitude = 126.99740017741334;
+        obj.latitude = 34.432259004507706;
+        obj.longitude = 135.23078013589355;
         obj.provider_region = 'AWS ap-northeast-3';
         break;
 
@@ -1515,8 +1515,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'London, United Kingdom';
         obj.flag = '🇬🇧';
         obj.country = 'England';
-        obj.latitude = 51.52489041122748;
-        obj.longitude = -0.13046209371870243;
+        obj.latitude = 51.47010916169302;
+        obj.longitude = -0.4538019752891245;
         obj.provider_region = 'AWS eu-west-2';
         break;
 
@@ -1524,8 +1524,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Portland, USA';
         obj.flag = '🇺🇸';
         obj.country = ' United States of America';
-        obj.latitude = 45.52216947634798;
-        obj.longitude = -122.67777490574689;
+        obj.latitude = 45.589836950438105;
+        obj.longitude = -122.59477233684096;
         obj.provider_region = 'AWS us-west-2';
         break;
 
@@ -1533,8 +1533,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'San Francisco, USA';
         obj.flag = '🇺🇸';
         obj.country = 'United States of America';
-        obj.latitude = 37.77281582759221;
-        obj.longitude = -122.39022946891012;
+        obj.latitude = 37.62151682925049;
+        obj.longitude = -122.37853697752644;
         obj.provider_region = 'AWS us-west-1';
         break;
 
@@ -1542,8 +1542,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Singapore';
         obj.flag = '🇸🇬';
         obj.country = 'Singapore';
-        obj.latitude = 1.3510531723014314;
-        obj.longitude = 103.87991388897552;
+        obj.latitude = 1.3645489085294884;
+        obj.longitude = 103.99276461360598;
         obj.provider_region = 'AWS ap-southeast-1';
         break;
 
@@ -1551,8 +1551,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'Sydney, Australia';
         obj.flag = '🇦🇺';
         obj.country = 'Australia';
-        obj.latitude = -33.8652229494752;
-        obj.longitude = 151.25868241093193;
+        obj.latitude = -33.94994538212224;
+        obj.longitude = 151.18242738214366;
         obj.provider_region = 'AWS ap-southeast-2';
         break;
 
