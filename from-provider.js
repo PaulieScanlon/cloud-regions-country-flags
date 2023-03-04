@@ -30,8 +30,8 @@ exports.fromProvider = function (region, provider) {
         obj.location = 'US West (N. California)';
         obj.flag = '🇺🇸';
         obj.country = 'United States of America';
-        obj.latitude = 35.58947293722038;
-        obj.longitude = -78.70505448880436;
+        obj.latitude = 37.783732204567315;
+        obj.longitude = -122.38146881423991;
         break;
 
       case 'us-west-2':
