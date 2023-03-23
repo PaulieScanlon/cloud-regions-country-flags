@@ -1142,6 +1142,14 @@ exports.fromProvider = function (region, provider) {
         obj.longitude = -95.86419227653424;
         break;
 
+      case 'us-east1':
+        obj.location = 'Moncks Corner, South Carolina, North America';
+        obj.flag = '🇺🇸';
+        obj.country = 'United States of America';
+        obj.latitude = 33.19598964160125;
+        obj.longitude = -80.01054474958269;
+        break;
+
       case 'us-east1-b':
         obj.location = 'Moncks Corner, South Carolina, North America';
         obj.flag = '🇺🇸';
